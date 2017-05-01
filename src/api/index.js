@@ -1,6 +1,7 @@
 import fetch from 'isomorphic-fetch';
+import * as config from '../../config.js';
 
-export const appId = 'dfc1cd72';
+export const appId = config.API_KEY;
 export const charityId = '183092';
 export const baseUrl = 'https://api.justgiving.com';
 export const fundraisersPath = `/${appId}/v1/charity/${charityId}/leaderboard`;
