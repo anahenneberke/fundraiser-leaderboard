@@ -8,12 +8,14 @@
     "start": "webpack-dev-server",
     "build": "npm run clean && webpack",
     "build:prod": "npm run clean && webpack -p",
+    "prod": "NODE_ENV=production node server.js",
     "test": "jest"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "express": "^4.15.2",
     "lodash.uniqueid": "^4.0.1",
     "react": "^15.5.4",
     "react-dom": "^15.5.4"
