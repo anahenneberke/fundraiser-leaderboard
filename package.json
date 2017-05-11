@@ -30,7 +30,10 @@
     "react-addons-test-utils": "^15.5.1",
     "react-test-renderer": "^15.5.4",
     "rimraf": "^2.6.1",
-    "webpack": "^2.4.1",
+    "webpack": "^2.5.1",
     "webpack-dev-server": "^2.4.5"
+  },
+  "engines": {
+    "node": "3.10.8"
   }
 }
