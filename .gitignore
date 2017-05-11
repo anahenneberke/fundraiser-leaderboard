@@ -1,8 +1,5 @@
 # dependencies
 node_modules
 
-# builds
-dist
-
 # config
 config.js
